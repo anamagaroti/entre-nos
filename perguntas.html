@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perguntas que ficaram — Entre Nós</title>
+<meta name="description" content="Perguntas que surgiram nos encontros do Entre Nós e ainda não foram totalmente respondidas.">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body data-pagina="perguntas">
+<a href="#conteudo" class="skip-link">Pular para o conteúdo</a>
+<header class="cabecalho" data-parcial="partials/header.html"></header>
+
+<main id="conteudo">
+  <section class="hero-pagina">
+    <div class="container">
+      <p class="hero-pagina__eyebrow">Perguntas</p>
+      <h1>Perguntas que ficaram</h1>
+      <p class="hero-pagina__texto">Nem todo encontro termina com uma resposta fechada. Estas são as perguntas que continuam abertas — algumas já foram retomadas em encontros seguintes.</p>
+    </div>
+  </section>
+
+  <section class="secao">
+    <div class="container">
+      <div data-area="lista-perguntas-completa"><p class="carregando">Carregando as perguntas…</p></div>
+    </div>
+  </section>
+
+  <!-- <section class="secao secao--areia">
+    <div class="container">
+      <div class="secao__cabecalho">
+        <h2 class="secao__titulo">Tem uma pergunta?</h2>
+        <p class="secao__introducao">Pessoas de fora do grupo também podem enviar perguntas. Elas podem virar tema de um encontro futuro.</p>
+      </div>
+
+      <div class="container--leitura" style="padding:0">
+        <form class="formulario" data-form-sem-backend novalidate>
+          <div class="campo">
+            <label for="pergunta-nome">Nome <span style="font-weight:400">(opcional)</span></label>
+            <input type="text" id="pergunta-nome" name="nome" autocomplete="name">
+          </div>
+          <div class="campo">
+            <label for="pergunta-email">E-mail <span style="font-weight:400">(opcional)</span></label>
+            <input type="email" id="pergunta-email" name="email" autocomplete="email">
+            <p class="campo__ajuda">Só usamos isso se quisermos avisar você quando a pergunta virar tema de um encontro.</p>
+          </div>
+          <div class="campo">
+            <label for="pergunta-texto">Sua pergunta</label>
+            <textarea id="pergunta-texto" name="pergunta" rows="4" required></textarea>
+          </div>
+          <div class="campo campo--check">
+            <input type="checkbox" id="pergunta-consentimento" name="consentimento" required>
+            <label for="pergunta-consentimento">Autorizo que esta pergunta seja publicada no site, sem meu nome, se ela virar tema de um encontro.</label>
+          </div>
+          <div>
+            <button type="submit" class="botao botao--primario">Enviar pergunta</button>
+          </div>
+        </form>
+        <p class="mensagem-envio" role="status">Obrigado — sua pergunta foi registrada por aqui. <em>(Este formulário ainda não está conectado a um backend; veja o README.md do projeto para integrá-lo a um envio real.)</em></p>
+      </div>
+    </div>
+  </section> -->
+</main>
+
+<footer class="rodape" data-parcial="partials/footer.html"></footer>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script src="js/encontros.js"></script>
+</body>
+</html>

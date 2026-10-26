@@ -1,0 +1,46 @@
+{
+  "_aviso": "DADOS DE EXEMPLO — nomes, textos e datas fictícios, usados apenas para demonstrar o funcionamento do site. Substitua pelo conteúdo real dos encontros. Veja README.md.",
+
+  "encontros": [
+    {
+      "id": "e01",
+      "numero": 1,
+      "slug": "quem-e-deus",
+      "titulo": "Quem é Deus?",
+      "perguntaCentral": "Quem é Deus, e como podemos conhecê-lo?",
+      "data": "2026-07-25",
+      "resumo": "Uma investigação sobre o caráter de Deus e sua relação com o ser humano, a partir de textos do Antigo e do Novo Testamento.",
+      "contexto": "Este exemplo foi escolhido para abrir o arquivo do grupo: antes de discutir qualquer outra questão, valia perguntar de quem estamos falando quando dizemos \"Deus\".",
+      "status": "proximo",
+      "destaque": true
+    }
+  ],
+
+  "subperguntas": [
+    { "id": "", "encontroId": "", "ordem": 1, "pergunta": "" }
+    ],
+
+  "pesquisas": [
+    {
+      "id": "",
+      "subperguntaId": "",
+      "textos": "",
+      "reflexao": "",
+      "interpretacao": "",
+      "duvidas": ""
+    }
+   
+  ],
+
+  "textosBiblicos": [
+    { "id": "", "encontroId": "", "referencia": "", "observacao": "" }
+    ],
+
+  "perguntasAbertas": [
+    { "id": "", "encontroId": "", "pergunta": "", "status": "" }
+    ],
+
+  "relacoes": [
+    { "encontroId": "", "encontroRelacionadoId": "" }
+  ]
+}

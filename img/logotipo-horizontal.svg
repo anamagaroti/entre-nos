@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160">
+  <rect width="640" height="160" fill="#F5F1E8"/>
+  <g transform="translate(85,88) scale(0.62)">
+      <path d="M -54,28 Q -28,-34 0,0 Q 28,-34 54,28"
+            fill="none" stroke="#173A32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="0" cy="-28" r="4" fill="#B58B55"/>
+    </g>
+  <text x="165" y="102" font-family="Fraunces" font-size="58" fill="#173A32">Entre N&#243;s</text>
+</svg>

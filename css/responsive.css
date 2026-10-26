@@ -1,0 +1,66 @@
+/* ==========================================================================
+   ENTRE NÓS — responsive.css
+   Mobile é o padrão em style.css; aqui ajustamos para telas maiores
+   e ligamos o menu hambúrguer nas telas pequenas.
+   ========================================================================== */
+
+/* --- Menu mobile (até 719px) --- */
+@media (max-width: 719px) {
+  .botao-menu { display: block; }
+
+  .nav-principal {
+    position: fixed;
+    top: 4.25rem; left: 0; right: 0; bottom: 0;
+    background: var(--verde-floresta);
+    flex-direction: column;
+    align-items: stretch;
+    padding: var(--espaco-3);
+    transform: translateX(100%);
+    transition: transform 220ms ease;
+    overflow-y: auto;
+  }
+  .menu-aberto .nav-principal { transform: translateX(0); }
+  .nav-principal__lista { flex-direction: column; gap: 0; }
+  .nav-principal__link {
+    display: block; padding: 1rem 0.2rem; font-size: 1.1rem;
+    border-bottom: 1px solid rgba(245,241,232,0.12);
+  }
+  .nav-principal__acao { margin-top: var(--espaco-3); }
+
+  .rodape .container { flex-direction: column; }
+}
+
+/* --- Tablet e acima (720px+) --- */
+@media (min-width: 720px) {
+  :root { --tamanho-base: 17.5px; }
+
+  .secao { padding: var(--espaco-6) 0; }
+
+  .hero { padding: 8rem 0 var(--espaco-6); }
+
+  .sequencia { max-width: none; }
+
+  .destaque-proximo { grid-template-columns: 1fr auto; align-items: end; padding: var(--espaco-5); }
+  .destaque-proximo__acao { margin-top: 0; }
+
+  .grade-encontros { grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr)); }
+}
+
+/* --- Desktop (960px+) --- */
+@media (min-width: 960px) {
+  .secao__cabecalho--linha { align-items: center; }
+
+  .subpergunta { display: grid; grid-template-columns: 16rem 1fr; gap: var(--espaco-4); }
+  .subpergunta__titulo { grid-column: 1 / -1; }
+}
+
+/* --- Telas largas --- */
+@media (min-width: 1200px) {
+  .container { padding: 0 var(--espaco-4); }
+}
+
+/* --- Impressão (registro dos encontros pode ser salvo em PDF por alguém) --- */
+@media print {
+  .cabecalho, .rodape, .botao-menu, .nav-principal, .formulario, form { display: none !important; }
+  body { background: #fff; color: #000; }
+}

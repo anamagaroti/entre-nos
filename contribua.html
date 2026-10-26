@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contribua — Entre Nós</title>
+<meta name="description" content="Envie perguntas ou contribuições para o Entre Nós.">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body data-pagina="contribua">
+<a href="#conteudo" class="skip-link">Pular para o conteúdo</a>
+<header class="cabecalho" data-parcial="partials/header.html"></header>
+
+<main id="conteudo">
+  <section class="hero-pagina">
+    <div class="container">
+      <p class="hero-pagina__eyebrow">Contribua</p>
+      <h1>Complemente um encontro</h1>
+      <p class="hero-pagina__texto">Se você participou de um encontro — ou só leu o registro dele — pode complementar com um texto, uma referência ou uma reflexão.</p>
+    </div>
+  </section>
+
+  <section class="secao">
+    <div class="container container--leitura">
+      <p class="aviso-moderacao">As contribuições passam por moderação antes de serem publicadas. Elas não aparecem no site automaticamente após o envio.</p>
+
+      <form class="formulario" data-form-sem-backend novalidate>
+        <div class="campo">
+          <label for="contrib-encontro">Encontro relacionado</label>
+          <input type="text" id="contrib-encontro" name="encontro" placeholder="Ex.: Encontro #02 — Por que sofremos?">
+        </div>
+        <div class="campo">
+          <label for="contrib-nome">Nome <span style="font-weight:400">(opcional)</span></label>
+          <input type="text" id="contrib-nome" name="nome" autocomplete="name">
+        </div>
+        <div class="campo">
+          <label for="contrib-email">E-mail <span style="font-weight:400">(opcional)</span></label>
+          <input type="email" id="contrib-email" name="email" autocomplete="email">
+        </div>
+        <div class="campo">
+          <label for="contrib-texto">Sua contribuição</label>
+          <textarea id="contrib-texto" name="comentario" rows="6" required></textarea>
+        </div>
+        <div class="campo campo--check">
+          <input type="checkbox" id="contrib-consentimento" name="consentimento" required>
+          <label for="contrib-consentimento">Autorizo a publicação desta contribuição, após moderação, podendo ser editada por clareza.</label>
+        </div>
+        <div>
+          <button type="submit" class="botao botao--primario">Enviar contribuição</button>
+        </div>
+      </form>
+      <p class="mensagem-envio" role="status">Obrigado — sua contribuição foi registrada por aqui. <em>(Este formulário ainda não está conectado a um backend; veja o README.md do projeto para integrá-lo a um envio real.)</em></p>
+    </div>
+  </section>
+</main>
+
+<footer class="rodape" data-parcial="partials/footer.html"></footer>
+<script src="js/main.js"></script>
+</body>
+</html>

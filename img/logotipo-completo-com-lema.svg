@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260">
+  <rect width="640" height="260" fill="#173A32"/>
+  <g transform="translate(320,90) scale(0.85)">
+      <path d="M -54,28 Q -28,-34 0,0 Q 28,-34 54,28"
+            fill="none" stroke="#F5F1E8" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="0" cy="-28" r="4" fill="#B58B55"/>
+    </g>
+  <text x="320" y="175" text-anchor="middle" font-family="Fraunces" font-size="52" fill="#F5F1E8">Entre N&#243;s</text>
+  <text x="320" y="210" text-anchor="middle" font-family="Fraunces" font-style="italic" font-size="21" fill="#B58B55">Perguntar. Buscar. Compartilhar.</text>
+</svg>
